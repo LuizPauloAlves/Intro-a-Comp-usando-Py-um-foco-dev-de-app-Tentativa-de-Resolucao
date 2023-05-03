@@ -1,0 +1,17 @@
+import turtle
+def position(x,y):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+s = turtle.Screen()
+t = turtle.Turtle()
+t.circle(20)
+position(0,40)
+t.circle(20,180)
+t.left(90)
+t.forward(40)
+position(80,40)
+t.left(-90)
+t.circle(20,180)
+t.left(90)
+t.forward(40)
